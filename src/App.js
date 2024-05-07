@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Router>
       <div className="container">
-        <h1>VR kayıt olma ve giriş yapma ekranına hoşgeldiniz</h1>
+        <h1>VR projemizin kayıt olma ve giriş yapma ekranına hoşgeldiniz</h1>
         <Routes>
           <Route path="/" element={<LoginPage />} /> {/* Route for the login page */}
           <Route path="/signup" element={<SignupPage />} /> {/* Route for the sign-up page */}
