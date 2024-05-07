@@ -1,0 +1,21 @@
+/* App.css */
+
+/* Center the text in the container */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Adjust to column layout */
+  height: 100vh;
+  background-color: #007bff; /* Normal blue background color */
+}
+
+h1 {
+  margin-top: 50px; /* Adjust margin for the title */
+  color: #fff; /* Set color to white */
+}
+
+.login-form, .signup-form {
+  width: 300px;
+  margin-top: 20px; /* Add space between title and form */
+}
